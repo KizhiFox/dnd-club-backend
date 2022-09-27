@@ -186,7 +186,7 @@ class CharSheet(Base):
     hair = Column(String)
 
     # Text fields
-    char_appearance = Column(String)
+    char_appearance = Column(String)  # Maybe base64-encoded image?
     char_backstory = Column(String)
     allies_organizations = Column(String)
     org_name = Column(String)
