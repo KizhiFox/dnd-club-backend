@@ -14,6 +14,7 @@ class UserBase(BaseModel):
 class UserCreate(UserBase):
     nickname: str
     password: str
+    invite_code: str
 
 
 # Properties to receive via API on update
